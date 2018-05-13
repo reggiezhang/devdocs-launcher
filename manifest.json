@@ -1,0 +1,21 @@
+{
+  "name": "DevDocs Launcher",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Open devdocs.io",
+  "browser_action": {
+    "default_title": "Open devdocs.io"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "permissions": [
+    "tabs"
+   ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
